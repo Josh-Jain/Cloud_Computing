@@ -24,7 +24,7 @@ def get_USstatesCovidData():
                 return jsonify({'error':'No data present'}), 400
 
 
-#this function adds a perticular  data to the existing database
+#this function adds a data to the existing database
 @app.route('/covidUScases', methods=['POST'])
 def add_State():
         csr = conet.cursor()
@@ -36,7 +36,7 @@ def add_State():
 #curl -i -H "content-Type: application/json" -X POST -d details http://<paste the public DNS>:5000/covidUScases
 
 
-#this function updates a perticular data in the database
+#this function updates a data in the database
 @app.route('/covidUScases', methods=['PUT'])
 def update_State():
         csr = conet.cursor()
@@ -48,7 +48,7 @@ def update_State():
 # curl -i -H "content-Type: application/json" -X PUT -d details http://<paste the public DNS>:5000/covidUScases
 
 
-#this function delets a perticular data in database
+#this function deletes a data in database
 @app.route('/covidUScases', methods=['DELETE'])
 def delete_State():
         csr = conet.cursor()
