@@ -17,7 +17,7 @@ pip3 install pyopenssl
 #Generating cert.pem and key.pem
 openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 365
 
-USING CURD OPERATIONS
+USING CRUD OPERATIONS
 #get function 
 python3 USstatescovidcases.py
 
