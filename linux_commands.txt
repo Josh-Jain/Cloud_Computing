@@ -1,0 +1,34 @@
+INSTALLING RESQIRED DOCUMENTS
+# Install PIP
+sudo apt update -y
+sudo apt install python3-pip
+
+# Install REST Service
+pip3 install Flask
+
+# Install other libraries
+pip3 install requests
+pip3 install requests-cache
+
+PROCESS TO SERVING APPLICATION OVER https
+#Install openssl
+pip3 install pyopenssl
+
+#Generating cert.pem and key.pem
+openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 365
+
+USING CURD OPERATIONS
+#get function 
+python3 USstatescovidcases.py
+
+#post function
+curl -i -H "content-Type: application/json" -X POST -d details http://<paste the public DNS>:5000/covidUScases
+#run this command in the terminal(open another window, after running the .py file)
+
+#put function 
+ curl -i -H "content-Type: application/json" -X PUT -d details http://<paste the public DNS>:5000/covidUScases
+#run this command in the terminal(open another window, after running the .py file)
+
+#delete function
+curl -X "DELETE" http://<paste the public DNS>:5000/covidUScases
+#run this command in the terminal(open another window, after running the .py file)
