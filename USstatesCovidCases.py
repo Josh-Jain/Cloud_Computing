@@ -32,7 +32,7 @@ def add_State():
         details = csr.fetchall()
         return jsonify({'Success':'Data Added'}), 200
 
-# to update the place, run the command in the terminal:-
+# to add the place, run the command in the terminal:-
 #curl -i -H "content-Type: application/json" -X POST -d details http://<paste the public DNS>:5000/covidUScases
 
 
@@ -61,4 +61,4 @@ def delete_State():
 
 
 if __name__=="__main__":
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', ssl_context=('cert.pem', 'key.pem'))
