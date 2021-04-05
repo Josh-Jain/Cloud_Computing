@@ -33,7 +33,7 @@ https://covid-api.mmediagroup.fr/v1
     1.	_State name_ (here _Mississippi_)
     2.	_Confirmed cases_ in Mississippi.
     3.	_Deaths_ in Mississippi
-    4.	Date _Updated_ (here, _1/4/2021_)
+    4.	Date _Updated_ (here, _30/3/2021_)
 
 3. PUT /cases
   
@@ -41,9 +41,9 @@ https://covid-api.mmediagroup.fr/v1
     This function updates a particular parameter/data to the existing database. 
    
    __Parameters__
-    1.	Confirmed cases in Mississippi.
-    2.	Deaths in Mississippi
-    3.	Date Updated (here, 1/4/2021)
+    1.	_Confirmed cases in Mississippi.
+    2.	_Deaths in Mississippi
+    3.	_Date Updated (here, 1/4/2021)
 
 4. DELETE /cases
    
