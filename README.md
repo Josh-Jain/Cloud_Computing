@@ -2,7 +2,6 @@
 
 # Covid-19-API
 
-## Part I - CRUD Operations
 ## What the API is for?
 
 The API is intended for developers, machines, programs, and other websites to be able to quickly fetch up to date information on the COVID-19 epidemic.
@@ -12,7 +11,7 @@ It can be used to build tools and systems that are used for data analysis all th
 API base:
 https://covid-api.mmediagroup.fr/v1
 
-## Crude Operations
+## Part I - CRUD Operations
 1. GET /cases
 
    __Function__
