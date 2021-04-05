@@ -62,15 +62,11 @@ This application uses a python library called pyopenssl to serve the application
 
 
 
-__Group22__
+
+## Group22
 Contributors:-
-
-Joshal Jain - ec201007,
-
-Akshara Gopakumar - ec201010,
-
-Keerthana Hariharan - ec201035,
-
-Sindhu Javvaji - ec201034,
-
+Joshal Jain - ec201007, 
+Akshara Gopakumar - ec201010, 
+Keerthana Hariharan - ec201035, 
+Sindhu Javvaji - ec201034, 
 Nayana Narayan - ec20043
