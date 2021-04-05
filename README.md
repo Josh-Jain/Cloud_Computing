@@ -61,7 +61,8 @@ https://covid-api.mmediagroup.fr/v1
 This application uses a python library called pyopenssl to serve the application over https.
 
 
-Group22
+
+__Group22__
 Contributors:-
 
 Joshal Jain - ec201007,
