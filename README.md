@@ -1,5 +1,6 @@
 Group22
 Contributors:-
+
 Joshal Jain - ec201007,
 
 Akshara Gopakumar - ec201010,
@@ -70,3 +71,4 @@ https://covid-api.mmediagroup.fr/v1
     4.	Updated 
 
 ## Part II - SERVING APPLICATION OVER https
+This application uses a python library called pyopenssl to server the application over https.
