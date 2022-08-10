@@ -58,14 +58,3 @@ https://covid-api.mmediagroup.fr/v1
 
 ## Part II - SERVING APPLICATION OVER https
 This application uses a python library called pyopenssl to serve the application over https.
-
-
-## The link to YouTube Video - https://youtu.be/HC4_apd4Y_0
-
-## Group22
-Contributors:-
-Joshal Jain - ec201007, 
-Akshara Gopakumar - ec201010, 
-Keerthana Hariharan - ec201035, 
-Sindhu Javvaji - ec201034, 
-Nayana Narayan - ec20043
